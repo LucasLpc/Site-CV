@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+.nav_link {
+  @apply uppercase font-bold text-gray-400 text-xl transition-all;
+}
+
+.nav_link:hover {
+  @apply text-gray-100;
+}
+
+.title {
+  @apply text-2xl text-gray-600 w-full text-center uppercase;
+}
+
+@tailwind utilities;
+/*# sourceMappingURL=tailwind.css.map */

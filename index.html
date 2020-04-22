@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" href="public/build/tailwind.css" />
+</head>
+
+<body class="bg-gray-300 font-sans">
+	<nav class="bg-gray-900 fixed top-0 right-0 w-full shadow-xl z-20 sm:hidden md:hidden ">
+		<ul class="flex justify-between">
+			<li class="flex w-1/3 justify-center p-4">
+				<a href="#" class="nav_link p-0">profil</a>
+			</li>
+			<li class="flex w-1/3 justify-center p-4">
+				<a href="#" class="nav_link p-0">compétences</a>
+			</li>
+			<li class="flex w-1/3 justify-center p-4">
+				<a href="#" class="nav_link p-0">projet</a>
+			</li>
+		</ul>
+	</nav>
+	<button
+		class="fixed xl:hidden lg:hidden top-0 right-0 z-50 rounded border-2 bg-transparent text-gray-300 font-extrabold">
+		ui
+	</button>
+	<div class="fixed translate-y-full xl:hidden lg:hidden top-0 right-0 h-screen w-screen">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<main>
+		<div>
+			<div class="bg-gray-900 flex flex-wrap justify-center">
+				<h1
+					class="text-4xl sm:text-2xl w-full text-gray-400 pt-32 sm:p-0 sm:mt-20 md:p-0 md:mt-32 text-center uppercase">
+					lucas laplanche
+				</h1>
+				<h2
+					class="text-2xl sm:text-lg text-gray-600 w-full sm:m-0 sm:mt-6 md:p-0 md:m-0 md:mt-6 md:mb-10 md:p-0 text-center uppercase">
+					étudiant en dut informatique
+				</h2>
+				<img src="public/img/profile_pic.png" alt="Photo de profil"
+					class="block rounded-full border-4 border-gray-600 w-3/12 lg:w-2/12 xl:w-1/12 mt-10 mb-10 sm:m-0 sm:mt-10 sm:mb-4 md:m-0 md:mb-8" />
+			</div>
+			<div class="lg:flex lg:flex-wrap justify-between mt-24">
+				<div class="lg:w-1/2 flex flex-wrap justify-center">
+					<h1 class="text-center text-4xl sm:text-2xl font-bold text-gray-800 uppercase">
+						Profil
+					</h1>
+					<p class="text-center text-2xl sm:text-xl tracking-wide leading-loose mt-12 pl-8 pr-8">
+						Je suis étudiant en DUT Informatique à l'IUT de Montreuil. Je suis
+						passionné par l'informatique et les nouvelles technologies, mais
+						aussi intéressé dans le développement informatique en particulier
+						dans le web et les applications mobiles.
+					</p>
+				</div>
+				<div class="lg:w-1/2 flex flex-wrap justify-center">
+					<h1 class="w-full text-center text-4xl sm:text-2xl font-bold text-gray-800 uppercase">
+						centres d'intérêts
+					</h1>
+					<ul class="list-disc leading-loose pl-24 pr-10 mt-12">
+						<li class="text-2xl sm:text-xl tracking-wide">
+							Le sport (plongée sous-marine, apnée, musculation, arts-martiaux
+							et autres)
+						</li>
+						<li class="text-2xl sm:text-xl mt-8 tracking-wide">
+							Les voyages à l'étranger
+						</li>
+						<li class="text-2xl sm:text-xl mt-8 tracking-wide">
+							Le cinéma, la musique, le dessin et l'art en général
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class=" flex flex-wrap justify-between mb-16 mt-24">
+			<div class="flex flex-wrap justify-center w-1/2 sm:w-screen md:w-screen">
+				<h1 class="w-full text-center text-4xl sm:text-2xl font-bold text-gray-800 uppercase mb-12">
+					compétences
+				</h1>
+				<div class="flex flex-wrap shadow-xl justify-center border-4 rounded-lg border-gray-400 mr-12 ml-12">
+					<div class="flex h-auto justify-between p-4 pr-10 pl-10 sm:m-2 sm:mt-4 md:p-2 md:mt-4">
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-auto">
+							<img src="public/img/logos/HTML_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold uppercase mt-3 sm:text-xs">
+								html5
+							</figcaption>
+						</figure>
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-auto">
+							<img src="public/img/logos/CSS_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold uppercase mt-3 sm:text-xs">
+								css3
+							</figcaption>
+						</figure>
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-auto">
+							<img src="public/img/logos/Scss_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold uppercase mt-3 sm:text-xs">
+								scss
+							</figcaption>
+						</figure>
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-auto">
+							<img src="public/img/logos/JavaScript_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold mt-3 sm:text-xs">
+								JavaScript
+							</figcaption>
+						</figure>
+					</div>
+					<div class="flex justify-center">
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12">
+							<img src="public/img/logos/php_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold uppercase mt-3 sm:text-xs">
+								php
+							</figcaption>
+						</figure>
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-auto sm:m-0 sm:ml-6 sm:mr-6">
+							<img src="public/img/logos/SQL_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold uppercase mt-3 sm:text-xs">
+								sql
+							</figcaption>
+						</figure>
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-autosm:ml-6 sm:mr-6">
+							<img src="public/img/logos/PostgreSQL_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold mt-3 sm:text-xs">
+								PostgreSQL
+							</figcaption>
+						</figure>
+					</div>
+					<div class="flex h-auto justify-between sm:justify-center p-4 pr-10 pl-10 sm:p-0 sm:m-2 sm:mb-4">
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-auto sm:m-0 sm:ml-12 sm:mr-12">
+							<img src="public/img/logos/Java_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold mt-3 sm:text-xs">
+								Java
+							</figcaption>
+						</figure>
+						<figure class="flex flex-wrap justify-center w-2/12 xl:w-1/12 h-auto sm:ml-12 sm:mr-12">
+							<img src="public/img/logos/C_logo.png" alt="" class="w-full object-contain" />
+							<figcaption class="font-bold uppercase mt-3 sm:text-xs">
+								c
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-wrap justify-center w-1/2 sm:w-screen md:w-screen">
+				<h1 class="w-full text-center text-4xl sm:text-2xl font-bold text-gray-800 uppercase mb-6">
+					diplômes / études
+				</h1>
+				<ul class="list-disc leading-loose pl-24 pr-10 sm:pl-10 md:pl-16">
+					<li class="w-full h-auto text-xl mt-8 tracking-wide font-bold">
+						UNIVERSITÉ PARIS 8 - MONTREUIL
+						<ul>
+							<li class="font-normal text-lg  ">
+								<span class="font-extrabold">-</span> En 1ére année de DUT
+								Informatique
+							</li>
+						</ul>
+					</li>
+					<li class="w-full h-auto text-xl mt-8 tracking-wide font-bold">
+						LYCÉE LÉONARD DE VINCI Baccalauréat - Mention AB
+						<ul>
+							<li class="font-normal text-lg">
+								<span class="font-extrabold">-</span> Seconde en section
+								Anglais EURO
+							</li>
+							<li class="font-normal text-lg">
+								<span class="font-extrabold">-</span> Première/Terminale STI2D
+								spécialité SIN (Systèmes d'Informations et Numériques)
+							</li>
+						</ul>
+					</li>
+					<li class="w-full h-auto text-xl mt-8 tracking-wide font-bold">
+						COLLÈGE JEAN JAURÈS Brevet des collèges - Mention B
+						<ul>
+							<li class="font-normal text-lg">
+								<span class="font-extrabold">-</span> Section Anglais EURO
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer class="relative bottom-0 left-0 h-16 bg-gray-900">
+		<div></div>
+	</footer>
+</body>
+
+</html>
